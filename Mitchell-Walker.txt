@@ -1,1 +1,83 @@
 https://codepen.io/eagleye1144/pen/zYKmpYN?editors=1100
+ 1. What is Semantic HTML?  
+        -Html that has meaning (not just div, but div with a class or 'section')
+    2. What is HTML used for? 
+        -Used to build the basics of the web, but it doesn't do anything. It just displays text or pictures or buttons...
+    3. What is an attribute and where do we put it? 
+        - goes inside of a tag and it is to bring in data to the element
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        - It is the title text, to make it bigger, we should only use it once
+    5. Name two tags that have required attributes
+        - anchor tag and image
+    6. What do we put in the head of our HTML document? 
+        - whatever we want to call our website (for google to see)
+    7. What is an id? 
+        - it is used to name an element so we can use it in CSS
+    8. What elements can I add an id to? 
+        - divs, sections, h1,h2. Pretty much anything (I think)
+    9. How many times can I use the same id on a page? 
+        - Use it once
+    10. What is a class? 
+        - simillar to an id it makes it easier to distinguish elements
+    11. What elements can I add a class to? 
+        - divs, sections, p's. pretty much everything
+    12. How many times can I use the same class on a page? 
+        - unlimited. just make sure when you style it, it will make it the same for all
+    13. How do I get my link to open in a new tab?
+        target ="_blank"
+    14. What is the alt attribute in the image tag used for? 
+        - it can be used to discribe the page for those who can't load it or deaf.
+    15. How do I reference an id?
+        - #"id"
+    16. What is the difference between a section and a div
+        - section is a little more specific. div is anything
+    17. What is CSS used for? 
+        -styling html
+    18. How to we select an element? Example - every h2 on the page
+        - just type the element. For example, "h2{}" will deal with all h2's
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        - classes can be used by multiple elements, but id's can only be used by one
+    20. How do we select classes in CSS?
+        - ."class"
+    21. How do we select a p element with a single class of “human””?
+        - p.human
+    22. What is a parent child selector? When would this be useful? 
+        - a p inside of a div. So that you only want to deal with that one p
+    23. How do you select all links within a div with the class of sidebar?
+        - 'havent found answer yet'
+    24. What is a pseudo selector?
+        - styling elements when a mouse goes over it, clicks on it, or when it has been visted or unvisited
+    25. What do we use the change the spacing between lines?
+        - line-spacing
+    26. What do we use to change the spacing between letters?
+        - letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        - text-transform:capitalize;
+    28. How do I add a 1px border around my div that is dotted and black?
+        border: 1px dotted black;
+    29. How do I select everything on the page? 
+        - 'body'?
+    30. How do I write a comment in CSS?
+        - /*
+    31. How do I find out what file I am in, when I am using the command line? 
+        - 1s
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        - pwd
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+        - rm
+    34. Why should I use version control? 
+        - there might not be a GUI program that supports the tasks you need to be done
+    35. How often should I commit to github?
+        - when you make a change
+    36. What is the command we would use to push our repo up to github? 
+         git push -u origin firstname-lastname
+    37. Walk me through Lambda's git flow. 
+        - Fork
+        -  Clone
+        - cd into the new repo
+        - git checkout -b 'firstname-lastname to create own branch
+        - work on project
+        - git add.
+        - git commit -m "what was changed?"
+        - push - git push -u origin firstname-lastname
+        - submit pull request
